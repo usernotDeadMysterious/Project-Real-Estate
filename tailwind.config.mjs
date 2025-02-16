@@ -18,11 +18,12 @@ export default {
   			popover: {
   				DEFAULT: 'hsl(var(--popover))',
   				foreground: 'hsl(var(--popover-foreground))',
-				  hover: '#5faaff'
+				  
   			},
   			primary: {
   				DEFAULT: '#7fc3ff',
-  				foreground: 'hsl(var(--primary-foreground))'
+  				foreground: 'hsl(var(--primary-foreground))',
+				hover: '#5faaff'
   			},
   			secondary: {
   				DEFAULT: 'hsl(var(--secondary))',
